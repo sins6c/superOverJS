@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+body{
+    background-image: url("./background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.container{
+    background-color:rgba(0, 0, 0, 0.748);
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container>.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.pic{
+    border-radius: 50%;
+    border: 2px solid rgb(111, 108, 19);
+}
+
+
+.name{
+    color: rgb(255, 162, 0);
+    font-size: x-large;
+    font-style: bold;
+}
+
+
+.score{
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 20px;
+    align-self: center;
+}
+
+
+.goals{
+    color: rgb(232, 232, 185);
+    font-size: x-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+
+#strike{
+    background-color: rgb(215, 78, 44);
+    font-size: larger;
+    width:150px;
+    height:150 px;
+    color:rgb(0, 0, 0);
+    margin-top: 50px;
+    border-radius: 75px;
+    outline: none;
+}
+#strike:hover, #try:hover {
+    background-color: brown;
+}
+
+
+#try{
+    background-color: rgb(220, 75, 18);
+    font-size: larger;
+    width:150px;
+    height:150 px;
+    color:rgb(2, 2, 2);
+    margin-top: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+#circle{
+    display: inline-block;
+}
+
+
+#result{
+    
+    font-size: x-large;
+    color:white;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+
+#team1scores{
+    margin-top: 20px;
+}
